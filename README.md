@@ -55,3 +55,19 @@ All photos used in the demo are under the **Public Domain Dedication (CC0)** lic
 ## Acknowledgments
 
 - This project utilizes the [Pillow](https://python-pillow.org/) library for image processing.
+
+## Troubleshooting
+
+### Icons Not Displaying After Processing
+
+If after running the main script, some icons do not display correctly, it might be due to the Windows icon cache not updating properly. You can resolve this by clearing the icon cache.
+
+#### Using the `delete_cache.bat` Script
+
+1. **Close All Open Programs**: Before you run the `delete_cache.bat` script, it's essential to close all running applications to prevent any issues.
+2. Navigate to the directory where you have the `delete_cache.bat` script.
+3. Right-click on the `delete_cache.bat` file and choose "Run as administrator."
+4. The script will forcefully close `explorer.exe`, delete the icon cache, and then restart `explorer.exe`.
+5. After running the script, check the folders again. The icons should now display correctly.
+
+**Note**: Always proceed with caution when running scripts that modify system processes or files. Ensure you have backups or a system restore point in place. Ive extensively commented the batch for transparency.
