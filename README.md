@@ -3,6 +3,8 @@
 
 A Python script that automates the process of setting custom icons for folders based on `folder.jpg` images present within them.
 
+![Before and After Comparison](https://github.com/Jamisonfitz/folder-jpg-to-icon/raw/main/assets/before_after.png)
+
 ## Features
 
 - **Automated Icon Setting**: Recursively scans the selected directory for `folder.jpg` files and sets them as custom folder icons.
