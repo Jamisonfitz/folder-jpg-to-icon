@@ -9,6 +9,11 @@ A Python script that automates the process of setting custom icons for folders b
 - **ICO Generation**: Automatically creates `.ico` files corresponding to each `folder.jpg`.
 - **Refresh Option**: Provides the ability to refresh and update existing icons based on updated `folder.jpg` images.
 
+## Prerequisites
+
+- This tool is designed specifically for Windows operating systems.
+- It assumes the presence of `folder.jpg` files within folders. The script does not generate `folder.jpg` files but uses them to create and set custom folder icons.
+
 ## Installation
 
 1. Clone this repository or download as a ZIP file.
@@ -46,3 +51,7 @@ All photos used in the demo are under the **Public Domain Dedication (CC0)** lic
 - **Robin** photo by [Wildlife Terry](https://www.flickr.com/photos/wistaston/)
 - **Cardinal & Blue Jay** photo by [Stephen Rahn](https://www.flickr.com/photos/srahn/)
 - **Yellowhammer** photo by [Stein Arne Jensen](https://www.flickr.com/photos/steinarnejensen/)
+
+## Acknowledgments
+
+- This project utilizes the [Pillow](https://python-pillow.org/) library for image processing.
